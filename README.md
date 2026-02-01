@@ -1,10 +1,18 @@
-# Yummy - Recipe Discovery & Cooking App
+<img width="1920" height="1080" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/51c5527d-70be-4ac0-bb7f-2760b58ef5c7" /><img width="1920" height="1080" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/67b8e6e9-3528-4eef-b3a1-810da168a3e8" /># Yummy - Recipe Discovery & Cooking App
 
 **Mobile Application Development Project**  
 **2nd Year • Semester 2 • 2025/2026**  
 Developed by: Monali Watareka
 
 Yummy is a simple, beautiful Android application that helps users discover, explore and save delicious recipes. The app focuses on an easy-to-use interface with category-based browsing, recipe details, profile management, notifications, and community feel — perfect for everyday cooking inspiration.
+
+
+
+<img width="1920" height="1080" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/239a656d-3bf9-417d-aef4-8b395ae5da54" />
+
+<img width="1920" height="1080" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/ea8af235-f837-4cc2-8d07-57de8fb503cb" />
+
+<img width="1920" height="1080" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/513ad8cb-7003-40ca-9a3a-4675530bbb4f" />
 
 
 ## ✨ Features
