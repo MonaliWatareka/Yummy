@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/51c5527d-70be-4ac0-bb7f-2760b58ef5c7" /><img width="1920" height="1080" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/67b8e6e9-3528-4eef-b3a1-810da168a3e8" /># Yummy - Recipe Discovery & Cooking App
+# Yummy - Recipe Discovery & Cooking App
 
 **Mobile Application Development Project**  
 **2nd Year • Semester 2 • 2025/2026**  
