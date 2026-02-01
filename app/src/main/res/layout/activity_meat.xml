@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".meatActivity">
+
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="321dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/searchview"
+        android:ems="10"
+        android:focusable="false"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/meatss"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:paddingStart="47dp"
+        android:textColorHint="@color/darkGreen"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="34dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="12dp"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editTextText"
+        app:srcCompat="@drawable/search_ic" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/backBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="38dp"
+        app:cardCornerRadius="3000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_icon" />
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:padding="5dp"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/butterchickenBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/n"
+                    android:elevation="3dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="@string/butter_chickenn"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.2in"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/chicken_bone_in_pices_yogurt_lemon_juice_ginger_garlic_pa"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bgtre"
+                    android:elevation="3dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="@string/creamy_tuscan_chicken"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.2in"
+                    android:layout_marginTop="40dp"
+                    android:text="@string/chicken_bone_in_pices_yogurt_lemon_juice_ginger_garlic_pa"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/f"
+                    android:elevation="3dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="@string/meatloaf_mini_muffin"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.2in"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/chicken_bone_in_pices_yogurt_lemon_juice_ginger_garlic_pa"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/c"
+                    android:elevation="3dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="@string/chicken_pizza"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.2in"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/chicken_bone_in_pices_yogurt_lemon_juice_ginger_garlic_pa"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/g"
+                    android:elevation="3dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="@string/creamy_beef_penne"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.2in"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/chicken_bone_in_pices_yogurt_lemon_juice_ginger_garlic_pa"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/j"
+                    android:elevation="3dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="@string/pork_with_honey"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.2in"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/chicken_bone_in_pices_yogurt_lemon_juice_ginger_garlic_pa"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/d"
+                    android:elevation="3dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="@string/cheesy_cajun_chicken_and_sausage_pasta"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.2in"
+                    android:layout_marginTop="47dp"
+                    android:text="@string/chicken_bone_in_pices_yogurt_lemon_juice_ginger_garlic_pa"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/a"
+                    android:elevation="3dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="@string/chicken_sandwitchH"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.2in"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/chicken_bone_in_pices_yogurt_lemon_juice_ginger_garlic_pa"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="1in"
+                    android:layout_height="1in"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/mhg"
+                    android:elevation="3dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="@string/spaghetti_bolognese"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.2in"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/chicken_bone_in_pices_yogurt_lemon_juice_ginger_garlic_pa"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomAppBar3"
+        android:layout_width="422dp"
+        android:layout_height="89dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/green_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/HomeBtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="11dp"
+                app:cardCornerRadius="50dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/img_15" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/communityBtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="11dp"
+                app:cardCornerRadius="50dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/img_17" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/addBtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="11dp"
+                app:cardCornerRadius="50dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/img_19" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bookmarkBtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="11dp"
+                app:cardCornerRadius="50dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/img_22" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/accountBtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="11dp"
+                app:cardCornerRadius="50dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/p" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
